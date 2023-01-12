@@ -1,0 +1,30 @@
+Started by user [8mha:////4C1C+LYX9XpcbG1eTE8GMMEhP5Nswqy/7GqvM0yEjlylAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9YqDuxJIMAFUTEj7CAAAA[0msrinath
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/Testing
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /root/.jenkins/workspace/Testing/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/intelliqittrainings/FunctionalTesting.git # timeout=10
+Fetching upstream changes from https://github.com/intelliqittrainings/FunctionalTesting.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/intelliqittrainings/FunctionalTesting.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 38095c8edea9e5192215ccc56b573f30223029a6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 38095c8edea9e5192215ccc56b573f30223029a6 # timeout=10
+Commit message: "a"
+ > git rev-list --no-walk 38095c8edea9e5192215ccc56b573f30223029a6 # timeout=10
+[Testing] $ /bin/sh -xe /tmp/jenkins15362723543244345640.sh
++ java -jar testing.jar
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by net.sourceforge.htmlunit.corejs.javascript.NativeArray (file:/root/.jenkins/workspace/Testing/testing.jar) to field java.util.Arrays$LegacyMergeSort.userRequested
+WARNING: Please consider reporting this to the maintainers of net.sourceforge.htmlunit.corejs.javascript.NativeArray
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+about:blank
+Expected Message : Hello, World!
+Actual Message   : 
+Testing has Failed
+Finished: SUCCESS

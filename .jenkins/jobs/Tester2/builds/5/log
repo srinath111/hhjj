@@ -1,0 +1,38 @@
+Started by upstream project "[8mha:////4JPSRDYl6AxrGxRfVGlaTOyAiXQ7lg3K1FDJYCHn/nqSAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/az8JP20tDR9ABLysHq+AAAA[0mfff" build number [8mha:////4EUx/qyxsjObWMY+rrT410Yx90pOlm1xw8ml52UptfABAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBi79rPwk/bS0NH0LAAU0T3G/AAAA[0m8
+originally caused by:
+ Started by user [8mha:////4C1C+LYX9XpcbG1eTE8GMMEhP5Nswqy/7GqvM0yEjlylAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9YqDuxJIMAFUTEj7CAAAA[0msrinath
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/ttt
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /root/.jenkins/workspace/ttt/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/intelliqittrainings/FunctionalTesting.git # timeout=10
+Fetching upstream changes from https://github.com/intelliqittrainings/FunctionalTesting.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/intelliqittrainings/FunctionalTesting.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 38095c8edea9e5192215ccc56b573f30223029a6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 38095c8edea9e5192215ccc56b573f30223029a6 # timeout=10
+Commit message: "a"
+ > git rev-list --no-walk 38095c8edea9e5192215ccc56b573f30223029a6 # timeout=10
+[ttt] $ /bin/sh -xe /tmp/jenkins3239370850261689189.sh
++ java -jar testing.jar
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by net.sourceforge.htmlunit.corejs.javascript.NativeArray (file:/root/.jenkins/workspace/ttt/testing.jar) to field java.util.Arrays$LegacyMergeSort.userRequested
+WARNING: Please consider reporting this to the maintainers of net.sourceforge.htmlunit.corejs.javascript.NativeArray
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+about:blank
+Expected Message : Hello, World!
+Actual Message   : 
+Testing has Failed
+Copied 1 artifact from "[8mha:////4LG1M2cttfd1OA2rQ7a4D3zvo13s77sTVK6kMBDf1nunAAAAih+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgLmHg1M/KT9JPS0vTBwAd/W8ejgAAAA==[0mfff" build number [8mha:////4Pp0ElQQBw+MkzAeMj3AIqvjpOk+UnFALhtCKpY1+a2qAAAAix+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMQoYeDWz8pP0k9LS9O30AcAgUBKhZAAAAA=[0m8
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /root/.jenkins/workspace/ttt/webapp/target/webapp.war to container Tomcat 9.x Remote with context prodapp
+  Redeploying [/root/.jenkins/workspace/ttt/webapp/target/webapp.war]
+  Undeploying [/root/.jenkins/workspace/ttt/webapp/target/webapp.war]
+  Deploying [/root/.jenkins/workspace/ttt/webapp/target/webapp.war]
+Finished: SUCCESS

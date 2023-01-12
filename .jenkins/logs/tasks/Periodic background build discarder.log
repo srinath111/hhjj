@@ -1,0 +1,26 @@
+Started at Mon Jan 09 13:08:54 UTC 2023
+Processing Developer2
+Offering Developer2 to Project Build Discarder
+Processing Development1
+Offering Development1 to Project Build Discarder
+Processing scriptedpipeline1
+Offering scriptedpipeline1 to Project Build Discarder
+Processing Tester2
+Offering Tester2 to Project Build Discarder
+Processing Testing
+Offering Testing to Project Build Discarder
+Finished at Mon Jan 09 13:08:54 UTC 2023. 6ms
+Started at Mon Jan 09 14:08:54 UTC 2023
+Processing Declarativepipeline
+Offering Declarativepipeline to Project Build Discarder
+Processing Developer2
+Offering Developer2 to Project Build Discarder
+Processing Development1
+Offering Development1 to Project Build Discarder
+Processing scriptedpipeline1
+Offering scriptedpipeline1 to Project Build Discarder
+Processing Tester2
+Offering Tester2 to Project Build Discarder
+Processing Testing
+Offering Testing to Project Build Discarder
+Finished at Mon Jan 09 14:08:54 UTC 2023. 3ms

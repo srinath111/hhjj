@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-01-07 12:34:26.716 UTC</timestamp>
+  <original>
+    <name>Developer2</name>
+    <number>8</number>
+  </original>
+  <md5sum>5516ef2c48079047670c1d18a4981f42</md5sum>
+  <fileName>webapp.war</fileName>
+  <usages>
+    <entry>
+      <string>Tester2</string>
+      <ranges>5</ranges>
+    </entry>
+    <entry>
+      <string>Developer2</string>
+      <ranges>8</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

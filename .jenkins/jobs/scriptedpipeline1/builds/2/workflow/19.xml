@@ -1,0 +1,73 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@3601.v9b_36a_d99e1cc">
+    <parentIds>
+      <string>18</string>
+    </parentIds>
+    <id>19</id>
+    <startId>15</startId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1673271628591</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <error class="org.codehaus.cargo.container.ContainerException" plugin="deploy@1.16">
+        <detailMessage>Failed to deploy [/root/.jenkins/workspace/scriptedpipeline1@2/webapp/target/webapp.war]</detailMessage>
+        <cause class="org.codehaus.cargo.container.tomcat.internal.TomcatManagerException">
+          <detailMessage>The Tomcat Manager responded &quot;FAIL - The application [/testapp] is already being serviced
+FAIL - Failed to deploy application at context path [/testapp]
+&quot; instead of the expected &quot;OK&quot; message</detailMessage>
+          <stackTrace>
+            <trace>org.codehaus.cargo.container.tomcat.internal.TomcatManager.invoke(TomcatManager.java:721)</trace>
+            <trace>org.codehaus.cargo.container.tomcat.internal.TomcatManager.deployImpl(TomcatManager.java:767)</trace>
+            <trace>org.codehaus.cargo.container.tomcat.internal.TomcatManager.deploy(TomcatManager.java:312)</trace>
+            <trace>org.codehaus.cargo.container.tomcat.internal.AbstractTomcatManagerDeployer.deploy(AbstractTomcatManagerDeployer.java:99)</trace>
+            <trace>org.codehaus.cargo.container.tomcat.internal.AbstractTomcatManagerDeployer.redeploy(AbstractTomcatManagerDeployer.java:172)</trace>
+            <trace>hudson.plugins.deploy.CargoContainerAdapter.deploy(CargoContainerAdapter.java:81)</trace>
+            <trace>hudson.plugins.deploy.CargoContainerAdapter$DeployCallable.invoke(CargoContainerAdapter.java:167)</trace>
+            <trace>hudson.plugins.deploy.CargoContainerAdapter$DeployCallable.invoke(CargoContainerAdapter.java:136)</trace>
+            <trace>hudson.FilePath.act(FilePath.java:1192)</trace>
+            <trace>hudson.FilePath.act(FilePath.java:1175)</trace>
+            <trace>hudson.plugins.deploy.CargoContainerAdapter.redeployFile(CargoContainerAdapter.java:133)</trace>
+            <trace>hudson.plugins.deploy.PasswordProtectedAdapterCargo.redeployFile(PasswordProtectedAdapterCargo.java:95)</trace>
+            <trace>hudson.plugins.deploy.DeployPublisher.perform(DeployPublisher.java:113)</trace>
+            <trace>jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)</trace>
+            <trace>org.jenkinsci.plugins.workflow.steps.CoreStep$Execution.run(CoreStep.java:101)</trace>
+            <trace>org.jenkinsci.plugins.workflow.steps.CoreStep$Execution.run(CoreStep.java:71)</trace>
+            <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)</trace>
+            <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+            <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+            <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+            <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+            <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+          </stackTrace>
+          <suppressedExceptions class="empty-list"/>
+        </cause>
+        <stackTrace>
+          <trace>org.codehaus.cargo.container.tomcat.internal.AbstractTomcatManagerDeployer.deploy(AbstractTomcatManagerDeployer.java:104)</trace>
+          <trace>org.codehaus.cargo.container.tomcat.internal.AbstractTomcatManagerDeployer.redeploy(AbstractTomcatManagerDeployer.java:172)</trace>
+          <trace>hudson.plugins.deploy.CargoContainerAdapter.deploy(CargoContainerAdapter.java:81)</trace>
+          <trace>hudson.plugins.deploy.CargoContainerAdapter$DeployCallable.invoke(CargoContainerAdapter.java:167)</trace>
+          <trace>hudson.plugins.deploy.CargoContainerAdapter$DeployCallable.invoke(CargoContainerAdapter.java:136)</trace>
+          <trace>hudson.FilePath.act(FilePath.java:1192)</trace>
+          <trace>hudson.FilePath.act(FilePath.java:1175)</trace>
+          <trace>hudson.plugins.deploy.CargoContainerAdapter.redeployFile(CargoContainerAdapter.java:133)</trace>
+          <trace>hudson.plugins.deploy.PasswordProtectedAdapterCargo.redeployFile(PasswordProtectedAdapterCargo.java:95)</trace>
+          <trace>hudson.plugins.deploy.DeployPublisher.perform(DeployPublisher.java:113)</trace>
+          <trace>jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.CoreStep$Execution.run(CoreStep.java:101)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.CoreStep$Execution.run(CoreStep.java:71)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+          <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+        </stackTrace>
+        <suppressedExceptions class="empty-list"/>
+        <originalThrowable class="org.codehaus.cargo.container.tomcat.internal.TomcatManagerException" reference="../cause"/>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

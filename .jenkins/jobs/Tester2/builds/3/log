@@ -1,0 +1,26 @@
+Started by upstream project "[8mha:////4JPSRDYl6AxrGxRfVGlaTOyAiXQ7lg3K1FDJYCHn/nqSAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/az8JP20tDR9ABLysHq+AAAA[0mfff" build number [8mha:////4Nimkt6S5pBnNUCad9LLmNMTvezRofDx+dCFqrD48JNvAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBi79rPwk/bS0NH0zAAIZ95a/AAAA[0m6
+originally caused by:
+ Started by user [8mha:////4C1C+LYX9XpcbG1eTE8GMMEhP5Nswqy/7GqvM0yEjlylAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9YqDuxJIMAFUTEj7CAAAA[0msrinath
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/ttt
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /root/.jenkins/workspace/ttt/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/intelliqittrainings/FunctionalTesting.git # timeout=10
+Fetching upstream changes from https://github.com/intelliqittrainings/FunctionalTesting.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/intelliqittrainings/FunctionalTesting.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 38095c8edea9e5192215ccc56b573f30223029a6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 38095c8edea9e5192215ccc56b573f30223029a6 # timeout=10
+Commit message: "a"
+ > git rev-list --no-walk 38095c8edea9e5192215ccc56b573f30223029a6 # timeout=10
+[ttt] $ /bin/sh -xe /tmp/jenkins1620132869382866049.sh
++ java -jar testing.war
+Error: Unable to access jarfile testing.war
+Build step 'Execute shell' marked build as failure
+[DeployPublisher][INFO] Build failed, project not deployed
+Finished: FAILURE

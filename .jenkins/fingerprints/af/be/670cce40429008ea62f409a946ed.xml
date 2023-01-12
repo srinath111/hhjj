@@ -1,0 +1,34 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-01-06 11:42:18.583 UTC</timestamp>
+  <md5sum>afbe670cce40429008ea62f409a946ed</md5sum>
+  <fileName>Credential id=e4665f08-02ed-4afe-b0d1-61db7c3328e5 name=srinath/******</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1214.v1de940103927">
+      <timestamp>1673008215854</timestamp>
+      <itemFullName>Development1</itemFullName>
+      <timestamp0>1673006800390</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1214.v1de940103927">
+      <timestamp>1673008226687</timestamp>
+      <itemFullName>Testing</itemFullName>
+      <timestamp0>1673008226687</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1214.v1de940103927">
+      <timestamp>1673094854267</timestamp>
+      <itemFullName>fff</itemFullName>
+      <timestamp0>1673094746607</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1214.v1de940103927">
+      <timestamp>1673094866748</timestamp>
+      <itemFullName>ttt</itemFullName>
+      <timestamp0>1673094756907</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1214.v1de940103927">
+      <timestamp>1673522874966</timestamp>
+      <itemFullName>scriptedpipeline1</itemFullName>
+      <timestamp0>1673271696100</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

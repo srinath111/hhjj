@@ -1,0 +1,22 @@
+Started by user [8mha:////4C1C+LYX9XpcbG1eTE8GMMEhP5Nswqy/7GqvM0yEjlylAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9YqDuxJIMAFUTEj7CAAAA[0msrinath
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/ttt
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/intelliqittrainings/FunctionalTesting.git
+ > git init /root/.jenkins/workspace/ttt # timeout=10
+Fetching upstream changes from https://github.com/intelliqittrainings/FunctionalTesting.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/intelliqittrainings/FunctionalTesting.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/intelliqittrainings/FunctionalTesting.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 38095c8edea9e5192215ccc56b573f30223029a6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 38095c8edea9e5192215ccc56b573f30223029a6 # timeout=10
+Commit message: "a"
+First time build. Skipping changelog.
+Finished: SUCCESS
